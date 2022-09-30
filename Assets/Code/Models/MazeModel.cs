@@ -7,6 +7,18 @@ namespace Models
         private readonly Vector2Int _size;
         public CellModel[,] Cells { get; }
 
+        public CellModel this[int x, int y]
+        {
+            get => Cells[x, y];
+            set => Cells[x, y] = value;
+        }
+
+        public CellModel this[Vector2Int pos]
+        {
+            get => this[pos.x, pos.y];
+            set => this[pos.x, pos.y] = value;
+        }
+        
         public MazeModel(Vector2Int size, CellModel.Type fillType = CellModel.Type.Wall)
         {
             _size = size;
@@ -23,6 +35,12 @@ namespace Models
                     };
                 }
             }
+        }
+        
+        public bool InMaze(Vector2Int position)
+        {
+            return position.x >= 0 && position.x < _size.x &&
+                   position.y >= 0 && position.y < _size.y;
         }
     }
 }

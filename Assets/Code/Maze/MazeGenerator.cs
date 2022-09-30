@@ -1,51 +1,100 @@
 ﻿using System.Collections.Generic;
 using Models;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Maze
 {
     public class MazeGenerator
     {
-        private Vector2Int size;
+        private readonly Vector2Int _size;
+
+        public MazeGenerator(Vector2Int size)
+        {
+            _size = size;
+        }
 
         public MazeModel Generate()
         {
-            var maze = new MazeModel(size);
+            var maze = new MazeModel(_size);
 
-            var current = maze.Cells[Random.Range(0, size.x), Random.Range(0, size.y)];
-
-            var walls = new List<CellModel>();
+            var current = maze.Cells[Random.Range(0, _size.x / 2) * 2 + 1, Random.Range(0, _size.y / 2) * 2 + 1];
+            current.EType = CellModel.Type.None;
             
-            while (walls.Count!= maze.Cells.Length/2)
+            var walls = new List<CellModel>();
+
+            if (current.Position.y - 2 >= 0)
             {
-                if (current.Position.x < size.x - 1 && current.Position.y < size.y - 1 &&
-                    current.EType == CellModel.Type.Wall)
+                walls.Add(maze.Cells[current.Position.x, current.Position.y - 2]);
+            }
+
+            if (current.Position.y + 2 < _size.y)
+            {
+                walls.Add(maze.Cells[current.Position.x, current.Position.y + 2]);
+            }
+
+            if (current.Position.x - 2 >= 0)
+            {
+                walls.Add(maze.Cells[current.Position.x - 2, current.Position.y]);
+            }
+
+            if (current.Position.x + 2 < _size.x)
+            {
+                walls.Add(maze.Cells[current.Position.x + 2, current.Position.y]);
+            }
+
+            while (walls.Count > 0)
+            {
+                var rndIndex = Random.Range(0, walls.Count);
+                current = walls[rndIndex];
+                walls.RemoveAt(rndIndex);
+                current.EType = CellModel.Type.None;
+
+                var directions = new List<Vector2Int>
                 {
-                    current.EType = CellModel.Type.None;
+                    Vector2Int.up,
+                    Vector2Int.down,
+                    Vector2Int.left,
+                    Vector2Int.right
+                };
 
-                    var x = current.Position.x;
-                    var y = current.Position.y;
+                while (directions.Count > 0)
+                {
+                    rndIndex = Random.Range(0, directions.Count);
+                    var dir = directions[rndIndex];
+                    directions.RemoveAt(rndIndex);
 
-                    var wallTop = maze.Cells[x, y + 1];
-                    var wallBottom = maze.Cells[x, y - 1];
-                    var wallLeft = maze.Cells[x - 1, y];
-                    var wallRight = maze.Cells[x + 1, y];
-
-                    walls.Add(wallTop);
-                    walls.Add(wallBottom);
-                    walls.Add(wallLeft);
-                    walls.Add(wallRight);
-
-                    while (walls.Count!=0)
-                    {
-                        var rnd = Random.Range(0, walls.Count);
-                        current = walls[rnd];
-                        walls.Remove(current);
-                    }
-
+                    var nearestPosition = current.Position + dir;
+                    var nextPosition = current.Position + (dir * 2);
                     
+                    if (maze.InMaze(nextPosition) && maze[nextPosition].EType == CellModel.Type.None)
+                    {
+                        maze[nearestPosition].EType = CellModel.Type.None;
+                        directions.Clear();
+                    }
+                }
+
+                if (current.Position.y - 2 >= 0 && maze.Cells[current.Position.x, current.Position.y - 2].EType == CellModel.Type.Wall)
+                {
+                    walls.Add(maze.Cells[current.Position.x, current.Position.y - 2]);
+                }
+
+                if (current.Position.y + 2 < _size.y && maze.Cells[current.Position.x, current.Position.y + 2].EType == CellModel.Type.Wall)
+                {
+                    walls.Add(maze.Cells[current.Position.x, current.Position.y + 2]);
+                }
+
+                if (current.Position.x - 2 >= 0 && maze.Cells[current.Position.x - 2, current.Position.y].EType == CellModel.Type.Wall)
+                {
+                    walls.Add(maze.Cells[current.Position.x - 2, current.Position.y]);
+                }
+
+                if (current.Position.x + 2 < _size.x && maze.Cells[current.Position.x + 2, current.Position.y].EType == CellModel.Type.Wall)
+                {
+                    walls.Add(maze.Cells[current.Position.x + 2, current.Position.y]);
                 }
             }
+
             return maze;
         }
     }

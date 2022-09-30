@@ -12,6 +12,5 @@ namespace Models
     
         public Vector2Int Position { get; set; }
         public Type EType { get; set; }
-
     }
 }

@@ -22,7 +22,7 @@ namespace UI
             pause.onClick.AddListener(controller.PauseTimer);
             reset.onClick.AddListener(controller.ResetTimer);
         }
-
+        
         private void OnDestroy()
         {
             controller.OnTimerEnded -= TimerEnded;
