@@ -15,7 +15,6 @@ namespace Controllers
         [SerializeField] private CoinsController coinsController;
         [SerializeField] private PlayerController playerController;
 
-
         private void Awake()
         {
             var mazeGenerator = new MazeGenerator(size);

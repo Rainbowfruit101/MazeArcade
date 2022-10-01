@@ -14,7 +14,9 @@ namespace Controllers
 
         private List<CoinView> _coinViews;
         private int _collectedCoinsCount;
+
         public event Action<int> OnCoinCollected;
+        public event Action OnCoinsEnded;
 
         public void Init(CoinModel[] coins)
         {
@@ -38,12 +40,18 @@ namespace Controllers
             }
         }
 
-        public void OnCoinCollect(CoinModel model, CoinView coinView)
+        public void OnCoinCollect(CoinView coinView)
         {
             _collectedCoinsCount += 1;
             OnCoinCollected?.Invoke(_collectedCoinsCount);
-            
+
+            _coinViews.Remove(coinView);
             Destroy(coinView.gameObject);
+
+            if (_coinViews.Count == 0)
+            {
+                OnCoinsEnded?.Invoke();
+            }
         }
     }
 }

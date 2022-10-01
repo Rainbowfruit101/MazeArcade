@@ -14,7 +14,7 @@ namespace Views
         {
             if (other.TryGetComponent(out PlayerView player))
             {
-                _coinsController.OnCoinCollect(_model,this);
+                _coinsController.OnCoinCollect(this);
             }
         }
 
