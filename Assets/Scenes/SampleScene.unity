@@ -1605,7 +1605,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52
+  m_fontSize: 100
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1713,7 +1713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 123
+  m_text: 000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1b01fa2989f017a45aeca9184863e197, type: 2}
   m_sharedMaterial: {fileID: -7498098536403669813, guid: 1b01fa2989f017a45aeca9184863e197, type: 2}
@@ -1740,7 +1740,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52
+  m_fontSize: 100
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2675,7 +2675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3699a4b50f4562b171a22c2c2fce78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 31, y: 21}
+  size: {x: 21, y: 21}
   amountOfCoins: 5
   mazeView: {fileID: 494276734}
   camera: {fileID: 519420031}
