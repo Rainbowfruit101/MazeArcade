@@ -1,27 +1,21 @@
+using Models;
 using UnityEngine;
+using Views;
+using Utils;
 
 namespace Controllers
 {
     public class PlayerController : MonoBehaviour
     {
-        [SerializeField] private float speed = 2;
+        [SerializeField] private Grid grid;
+        [SerializeField] private PlayerView playerPrefab;
 
-        private Rigidbody2D _rigidbody;
-
-        private void Start()
+        public void Init(PlayerModel model)
         {
-            _rigidbody = GetComponent<Rigidbody2D>();
+            var instance = Instantiate(playerPrefab.gameObject).GetComponent<PlayerView>();
+            instance.Init(model, this, grid.WorldPositionProvider);
+            instance.transform.SetParent(transform);
         }
-
-        private void Update()
-        {
-            _rigidbody.velocity = GetMove();
-        }
-
-        private Vector2 GetMove() => new Vector2()
-        {
-            x = Input.GetAxis("Horizontal"),
-            y = Input.GetAxis("Vertical")
-        } * speed;
+        
     }
 }
