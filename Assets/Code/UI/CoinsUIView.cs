@@ -15,6 +15,11 @@ namespace UI
             controller.OnCoinCollected += OnCoinCollected;
         }
 
+        private void OnDestroy()
+        {
+            controller.OnCoinCollected -= OnCoinCollected;
+        }
+
         private void OnCoinCollected(int collectedCoinsCount)
         {
             valuePlace.text = collectedCoinsCount.ToString("000");

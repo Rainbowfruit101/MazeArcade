@@ -13,7 +13,7 @@ namespace Controllers
         [SerializeField] private CoinView coinPrefab;
 
         private List<CoinView> _coinViews;
-        private int _collectedCoinsCount = 0;
+        private int _collectedCoinsCount;
         public event Action<int> OnCoinCollected;
 
         public void Init(CoinModel[] coins)
@@ -40,7 +40,9 @@ namespace Controllers
 
         public void OnCoinCollect(CoinModel model, CoinView coinView)
         {
-            OnCoinCollected?.Invoke(_collectedCoinsCount+=1);
+            _collectedCoinsCount += 1;
+            OnCoinCollected?.Invoke(_collectedCoinsCount);
+            
             Destroy(coinView.gameObject);
         }
     }
