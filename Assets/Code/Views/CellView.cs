@@ -2,26 +2,23 @@
 using System.Linq;
 using Models;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Views
 {
     public class CellView : MonoBehaviour
     {
         [Serializable]
-        public class TypedSprite
+        public class TypedView
         {
             [SerializeField] private CellModel.Type type;
-            [SerializeField] private Sprite sprite;
-            [SerializeField] private bool hasCollider;
+            [SerializeField] private GameObject view;
 
             public CellModel.Type Type => type;
-            public Sprite Sprite => sprite;
-            public bool HasCollider => hasCollider;
+            public GameObject View => view;
         }
 
-        [SerializeField] private new Collider2D collider;
-        [SerializeField] private SpriteRenderer spriteRenderer;
-        [SerializeField] private TypedSprite[] typeToSprite;
+        [SerializeField] private TypedView[] typedViews;
 
         private CellModel _model;
 
@@ -29,12 +26,12 @@ namespace Views
         {
             _model = model;
 
+            gameObject.name = $"Cell {_model.Position}";
             transform.position = worldPositionProvider.Invoke(_model.Position);
-            var typedSprite = typeToSprite.FirstOrDefault(ts => ts.Type == _model.EType);
-            if (typedSprite != null)
+            
+            foreach (var typedView in typedViews)
             {
-                spriteRenderer.sprite = typedSprite.Sprite;
-                collider.enabled = typedSprite.HasCollider;
+                typedView.View.SetActive(typedView.Type == _model.EType);
             }
         }
     }
