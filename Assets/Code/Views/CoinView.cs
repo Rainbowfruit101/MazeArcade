@@ -10,6 +10,8 @@ namespace Views
         private CoinModel _model;
         private CoinsController _coinsController;
 
+        public CoinModel Model => _model;
+
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.TryGetComponent(out PlayerView player))

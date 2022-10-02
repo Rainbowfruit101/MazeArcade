@@ -14,7 +14,7 @@ namespace Views
         {
             _model = model;
             _controller = controller;
-            gameObject.name = $"Player";
+            gameObject.name = "Player";
             transform.position = worldPositionProvider.Invoke(_model.Position);
         }
     }
