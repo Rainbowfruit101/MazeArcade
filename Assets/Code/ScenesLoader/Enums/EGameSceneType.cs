@@ -1,6 +1,6 @@
 namespace ScenesLoader
 {
-    public enum GameScene
+    public enum EGameSceneType
     {
         None,
         Menu,

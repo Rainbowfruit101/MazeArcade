@@ -1,12 +1,11 @@
-using Newtonsoft.Json;
 using ObjectsStorage;
 using ObjectsStorage.Impls;
 using UI.Menu.Impls;
 using UnityEngine;
 
-namespace ScenesLoader.Impls
+namespace ScenesLoader.SceneLaunchers
 {
-    public class OnMenuSceneLoaded: OnSceneLoaded
+    public class MenuSceneLauncher : SceneLauncherBase
     {
         [SerializeField] private MainMenuUIView mainMenu;
         [SerializeField] private LeaderboardMenuUIView leaderboardMenu;
@@ -16,7 +15,7 @@ namespace ScenesLoader.Impls
                 .Load<ProgressStorageObject, ProgressStorageObject.Progress>(new ProgressStorageObject());
             var leaderboardStorageObject = Storage
                 .Load<LeaderboardStorageObject, LeaderboardStorageObject.Leaderboard>(new LeaderboardStorageObject());
-            
+
             mainMenu.Init(progressStorageObject.Data, sceneLoader);
             leaderboardMenu.Init(leaderboardStorageObject.Data);
         }

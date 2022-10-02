@@ -6,9 +6,9 @@ using ScriptableObjects;
 using UnityEngine;
 using Views;
 
-namespace ScenesLoader.Impls
+namespace ScenesLoader.SceneLaunchers
 {
-    public class OnGameSceneLoaded: OnSceneLoaded
+    public class GameSceneLauncher : SceneLauncherBase
     {
         [SerializeField] private GameSettings gameSettings;
         [SerializeField] private CoinsController coinsController;
@@ -24,6 +24,9 @@ namespace ScenesLoader.Impls
             _progressStorageObject = Storage
                 .Load<ProgressStorageObject, ProgressStorageObject.Progress>(new ProgressStorageObject());
 
+            var mazeModel = Storage
+                .Load<GameStateStorageObject, GameStateStorageObject.GameState>(new GameStateStorageObject());
+            
             var mazeGenerator = new MazeGenerator(gameSettings.Size);
             var maze = mazeGenerator.Generate();
 
