@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17fd6511-11a1-44b5-9279-f80dd22f4670" name="Changes" comment="Added scene loader. Refactored code.">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Events.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Events/GameEvents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Events/GameEvents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls/GameStateStorageObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls/GameStateStorageObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Enums.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test Task/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test Task/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Coin.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Coin.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Coin.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Coin.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/CoinAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/CoinAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/CoinAnimation.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/CoinAnimation.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/DiaryOfAn8BitMage-lYDD.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/DiaryOfAn8BitMage-lYDD.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/DiaryOfAn8BitMage-lYDD.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/DiaryOfAn8BitMage-lYDD.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/CircleWithBorder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/CircleWithBorder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/CircleWithBorder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/CircleWithBorder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/decorative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/decorative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/decorative.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/decorative.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/mainlevbuild.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/mainlevbuild.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/mainlevbuild.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/mainlevbuild.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/coin-animation.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/coin-animation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/coin-animation.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/coin-animation.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/border.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/border.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Controllers/CoinsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Controllers/CoinsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Controllers/TimerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Controllers/TimerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/GameScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Enums/EGameSceneType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/GameScene.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Enums/EGameSceneType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnGameSceneLoaded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls/GameSceneLauncher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnGameSceneLoaded.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls/GameSceneLauncher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnMenuSceneLoaded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls/MenuSceneLauncher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnMenuSceneLoaded.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls/MenuSceneLauncher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/OnSceneLoaded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/SceneLauncherBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/OnSceneLoaded.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/SceneLauncherBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls/MainMenuUIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls/MainMenuUIView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/0.None.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/0.None.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.Menu.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.Menu.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2.Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2.Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2.Game.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2.Game.unity.meta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/UnityProjects/Test Task/Assets/Scenes/0.None.unity.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/UnityProjects/Test Task/Assets/Scenes/0.None.unity.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/UnityProjects/Test Task/Assets/Scenes/0.None.unity.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/34/8156cf0e/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/70/d1c0782e/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/92/d0275422/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/e8/9e5ea228/Func`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/fc/239520fa/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FRU1bm1wh46vJPhIgOZF3aDD3B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\UnityProjects\Test Task&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\UnityProjects\Test Task" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2364">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="2364" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17fd6511-11a1-44b5-9279-f80dd22f4670" name="Changes" comment="" />
+      <created>1664454180236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664454180236</updated>
+      <workItem from="1664454185962" duration="15165000" />
+      <workItem from="1664528427210" duration="4495000" />
+      <workItem from="1664535699873" duration="21089000" />
+      <workItem from="1664614544990" duration="1661000" />
+      <workItem from="1664620344636" duration="9161000" />
+      <workItem from="1664634383442" duration="1495000" />
+      <workItem from="1664636347079" duration="11641000" />
+      <workItem from="1664697714256" duration="29928000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added repository.">
+      <created>1664454813054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664454813054</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactored mazeGenerator.">
+      <created>1664464253479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664464253479</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactored code.">
+      <created>1664552732369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664552732369</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added player and coins. Refactored UI.">
+      <created>1664628994755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664628994755</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactored views and coin generator.">
+      <created>1664641839131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664641839131</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactored views and coin generator.">
+      <created>1664642420194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664642420194</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactored coin controller.">
+      <created>1664648578891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664648578891</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added scene loader. Refactored code.">
+      <created>1664729457542</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664729457542</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added scene loader. Refactored code.">
+      <created>1664729506106</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664729506106</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added repository." />
+    <MESSAGE value="Refactored mazeGenerator." />
+    <MESSAGE value="Refactored code." />
+    <MESSAGE value="Added player and coins. Refactored UI." />
+    <MESSAGE value="Refactored views and coin generator." />
+    <MESSAGE value="Refactored coin controller." />
+    <MESSAGE value="Added scene loader. Refactored code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added scene loader. Refactored code." />
+  </component>
+</project>

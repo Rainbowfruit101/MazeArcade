@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using ScenesLoader.SceneLaunchers.Impls;
 using UnityEngine;
 
 namespace Controllers
@@ -7,6 +8,7 @@ namespace Controllers
     public class TimerController : MonoBehaviour
     {
         [SerializeField] private int timerValue;
+        [SerializeField] private GameSceneLauncher gameSceneLauncher;
 
         private int _value;
         private Coroutine _timerCoroutine;
@@ -18,6 +20,7 @@ namespace Controllers
         private void Awake()
         {
             _value = timerValue;
+            gameSceneLauncher.OnGameStarted += StartTimer;
         }
 
         public void ResetTimer()
