@@ -1,5 +1,6 @@
 using ObjectsStorage.Impls;
 using ScenesLoader;
+using ScenesLoader.Enums;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,7 @@ namespace UI.Menu.Impls
         [SerializeField] private Button startButton;
         [SerializeField] private Button leaderboardButton;
         [SerializeField] private Button exitButton;
-
+        
         private SceneLoader _sceneLoader;
         
         public void Init(ProgressStorageObject.Progress progress, SceneLoader sceneLoader)
@@ -24,9 +25,10 @@ namespace UI.Menu.Impls
 
         private void OnStartClicked()
         {
-            _sceneLoader.LoadScene(GameScene.Game);
+            _sceneLoader.LoadScene(EGameSceneType.Game);
             startButton.interactable = false;
         }
+        
         private void OnLeaderboardClicked()
         {
             MenuManager.Instance.ShowOnly<LeaderboardMenuUIView>();

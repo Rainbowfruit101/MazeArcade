@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 879271138}
   - component: {fileID: 879271137}
   m_Layer: 0
-  m_Name: OnMenuSceneLoaded
+  m_Name: MenuLauncher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

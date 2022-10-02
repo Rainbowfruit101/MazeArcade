@@ -1,4 +1,5 @@
-using System;
+using ScenesLoader.Enums;
+using ScenesLoader.SceneLaunchers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,9 +7,9 @@ namespace ScenesLoader
 {
     public class SceneLoader: MonoBehaviour
     {
-        [SerializeField] private GameScene firstScene;
+        [SerializeField] private EGameSceneType firstScene;
 
-        private GameScene _currentScene;
+        private EGameSceneType _currentScene;
 
         private void Awake()
         {
@@ -16,15 +17,15 @@ namespace ScenesLoader
             LoadScene(firstScene);
         }
 
-        public void LoadScene(GameScene sceneToLoad)
+        public void LoadScene(EGameSceneType sceneToLoad)
         {
-            if(sceneToLoad == GameScene.None)
+            if(sceneToLoad == EGameSceneType.None)
                 return;
             
-            var loader = FindObjectOfType<OnSceneLoaded>();
-            if (loader != null)
+            var currentSceneLauncher = FindObjectOfType<SceneLauncherBase>();
+            if (currentSceneLauncher != null)
             {
-                loader.Unload(this);
+                currentSceneLauncher.Unload(this);
             }
             
             var loadOperation = SceneManager.LoadSceneAsync((int) sceneToLoad);
@@ -33,10 +34,10 @@ namespace ScenesLoader
 
         private void OnSceneLoaded(AsyncOperation operation)
         {
-            var loader = FindObjectOfType<OnSceneLoaded>();
-            if (loader != null)
+            var currentSceneLauncher = FindObjectOfType<SceneLauncherBase>();
+            if (currentSceneLauncher != null)
             {
-                loader.Load(this);
+                currentSceneLauncher.Load(this);
             }
         }
     }

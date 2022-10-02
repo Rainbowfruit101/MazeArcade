@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ScenesLoader
+namespace ScenesLoader.SceneLaunchers
 {
     public abstract class SceneLauncherBase : MonoBehaviour
     {

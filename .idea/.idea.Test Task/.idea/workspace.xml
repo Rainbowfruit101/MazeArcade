@@ -1,481 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17fd6511-11a1-44b5-9279-f80dd22f4670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Controllers/CameraController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls/LeaderboardStorageObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls/LeaderboardStorageObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls/ProgressStorageObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls/ProgressStorageObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Storage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Storage.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/StorageObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/StorageObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/GameScene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/GameScene.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/GameState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/GameState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnGameSceneLoaded.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnGameSceneLoaded.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnMenuSceneLoaded.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnMenuSceneLoaded.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/OnSceneLoaded.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/OnSceneLoaded.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScriptableObjects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScriptableObjects/GameSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ScriptableObjects/GameSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls/LeaderboardMenuUIView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls/LeaderboardMenuUIView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls/MainMenuUIView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls/MainMenuUIView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/MenuBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/MenuBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/MenuManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/MenuManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Coin.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Coin.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/CoinAnimation.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/CoinAnimation.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Controllers/GameController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Controllers/GameController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Controllers/CameraController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Maze.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Generators.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Maze/CoinGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Generators/CoinGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Maze/CoinGenerator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Generators/CoinGenerator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Maze/MazeGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Generators/MazeGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Maze/MazeGenerator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Generators/MazeGenerator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Maze/PlayerGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Generators/PlayerGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Maze/PlayerGenerator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Generators/PlayerGenerator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Models/CoinModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Models/CoinModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/UI/CoinsUIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/CoinsUIView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Views/CoinView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Views/CoinView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Views/PlayerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Views/PlayerView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DiaryOfAn8BitMage-lYDD.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DiaryOfAn8BitMage-lYDD.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF Castle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF Castle/Sliced.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF Castle/Sliced/decorative.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF Castle/Sliced/decorative.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF Castle/Sliced/mainlevbuild.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RF Castle/Sliced/mainlevbuild.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/ExamleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/ExamleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Background_CC_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Background_CC_rounded.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/InputField_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/InputField_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot3D_rounded_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot3D_rounded_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot_rounded_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/Slot_rounded_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_Vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_Vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/bar_rounded_CC_horizontal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/border_Rounded_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button2_rounded_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button2_rounded_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button_rounded_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/rounded/buttons/button_rounded_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/border.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/slot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/slot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/Background_GB_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/Background_GB_rounded.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/InputField_Rounded_GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/InputField_Rounded_GB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/Slot3D_rounded_GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/Slot3D_rounded_GB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/Slot_rounded_GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/Slot_rounded_GB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/border_Rounded_GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/border_Rounded_GB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/buttons/button2_rounded_GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/buttons/button2_rounded_GB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/buttons/button_rounded_GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/buttons/button_rounded_GB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/off_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/rounded/off_rounded.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons/button_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons/button_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons/button_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons/button_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons/button_small_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons/button_small_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons/button_small_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/Buttons/button_small_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/InputField.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/InputField.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/border.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/slot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/slot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/slot3D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/gray/square/slot3D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/Background_HCC_rounded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/Background_HCC_rounded.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/InputField_Rounded_HCC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/InputField_Rounded_HCC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/Slot3D_rounded_HCC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/Slot3D_rounded_HCC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/Slot_rounded_HCC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/Slot_rounded_HCC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_Vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_Vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/bar_rounded_HCC_horizontal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/border_Rounded_HCC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/border_Rounded_HCC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button2_rounded_HCC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button2_rounded_HCC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button_rounded_HCC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/rounded/buttons/button_rounded_HCC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Border.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Buttons/button_small_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/InputField.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/InputField.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background_Vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/background_Vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled_vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/filled_vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider/handle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/background_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/background_background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/background_vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/background_vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/filled_Vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/filled_Vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/filled_horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/filled_horizontal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider2/handle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/Background_vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/Background_vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/background_horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/background_horizontal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/filled_horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/filled_horizontal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/filled_vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/filled_vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slider3/handle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slot3D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/Slot3D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/health_Bar_vertical.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/health_Bar_vertical.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/health_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/health_bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/off.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/off2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/off2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/halfcustomizible/square/toogle/on3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons/icons_color_customizible.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons/icons_color_customizible.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons/isons_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons/isons_black.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons/locked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons/locked.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons/locked_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/artwork/icons/locked_white.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font1/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font1/license.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font1/pixelfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font1/pixelfont.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font1/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font1/readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font2/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font2/license.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font2/pixelfont2.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font2/pixelfont2.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font2/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/fonts/Font2/readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/InputField.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/InputField.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/Inventory.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/Inventory.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/background.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/background.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/border.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/border.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/buttons/button_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/buttons/button_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/buttons/button_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/rounded/buttons/button_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/InputField.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/InputField.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/Inventory.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/Inventory.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/background.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/background.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/border.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/border.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_small_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_small_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_small_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/buttons/button_small_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/icon.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Gray_black/square/icon.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Border.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Border.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Inventory.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Inventory.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Toggle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/Toggle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/backgroundHalfCustom.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/backgroundHalfCustom.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/buttons/button_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_BT.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_BT.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_LR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_LR.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_RL.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_RL.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_TB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/rounded/health_bar_rounded/HealthBar_TB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Border.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Border.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_BT.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_BT.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL .prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL .prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_RL 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_TB 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Health_bar/HealthBar_TB 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Inventory.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Inventory.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/Scrollbar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/Scrollbar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarBT.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarBT.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarLR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarLR.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarTB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/ScrollBar/ScrollbarTB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 BT.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 BT.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 LR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 LR.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 RL.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 RL.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 TB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider 2/Slider 2 TB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderBT.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderBT.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderLR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderLR.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderRL.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderRL.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderTB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Slider/SliderTB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Toggle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/Toggle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/backgroundHalfCustom.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/backgroundHalfCustom.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/buttons/button_small_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderBT.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderBT.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderLR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderLR.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderRL.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderRL.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderTB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/Half_color_customizible/square/slider3/SliderTB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/Border.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/Border.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/Inventory.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/Inventory.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/backgroundCustom.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/backgroundCustom.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/buttons/button_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_BT.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_BT.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_LR.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_LR.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_RL.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_RL.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_TB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/rounded/health_bar_rounded 1/HealthBar_TB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/Border.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/Border.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/Inventory.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/Inventory.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/backgroundCustom.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/backgroundCustom.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/buttons/button_small_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/icon.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/prefabs/color_customizible/square/icon.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/arrow_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/arrow_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_GB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_HCC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_HCC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_rounded_CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_rounded_CC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_rounded_GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_rounded_GB.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_rounded_HCC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/dropdown_rounded_HCC.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_CC.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_CC.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_GB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_GB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_HHC.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_HHC.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_CC.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_CC.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_GB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_GB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_HHC.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimplePixelUI/update 1.15/prefabs/Dropdown_rounded_HHC.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CircleWithBorder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CircleWithBorder.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/coin-animation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/coin-animation.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    <list default="true" id="17fd6511-11a1-44b5-9279-f80dd22f4670" name="Changes" comment="Added scene loader. Refactored code.">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Events.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Events/GameEvents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Events/GameEvents.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls/GameStateStorageObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/ObjectsStorage/Impls/GameStateStorageObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Enums.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test Task/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test Task/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Coin.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Coin.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Coin.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Coin.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/CoinAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/CoinAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/CoinAnimation.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/CoinAnimation.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/DiaryOfAn8BitMage-lYDD.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/DiaryOfAn8BitMage-lYDD.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Fonts/DiaryOfAn8BitMage-lYDD.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Fonts/DiaryOfAn8BitMage-lYDD.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/CircleWithBorder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/CircleWithBorder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/CircleWithBorder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/CircleWithBorder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/decorative.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/decorative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/decorative.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/decorative.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/mainlevbuild.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/mainlevbuild.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/mainlevbuild.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/RF Castle/Sliced/mainlevbuild.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/coin-animation.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/coin-animation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/coin-animation.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/coin-animation.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/Buttons/button_small_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/border.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/border.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/border.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/border.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_Bar_Vertical.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/health_bar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/Background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_horizontal/handle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/background.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/scroll_vertical/handle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/UI/SimplePixelUI/artwork/colorCustomizible/square/slot3D.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Controllers/CoinsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Controllers/CoinsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Controllers/TimerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Controllers/TimerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/GameScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Enums/EGameSceneType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/GameScene.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Enums/EGameSceneType.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnGameSceneLoaded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls/GameSceneLauncher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnGameSceneLoaded.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls/GameSceneLauncher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnMenuSceneLoaded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls/MenuSceneLauncher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/Impls/OnMenuSceneLoaded.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/Impls/MenuSceneLauncher.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/OnSceneLoaded.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/SceneLauncherBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/OnSceneLoaded.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLaunchers/SceneLauncherBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ScenesLoader/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls/MainMenuUIView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UI/Menu/Impls/MainMenuUIView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/0.None.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/0.None.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1.Menu.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1.Menu.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2.Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2.Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/2.Game.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/2.Game.unity.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -483,6 +89,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/UnityProjects/Test Task/Assets/Scenes/0.None.unity.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/UnityProjects/Test Task/Assets/Scenes/0.None.unity.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/UnityProjects/Test Task/Assets/Scenes/0.None.unity.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/34/8156cf0e/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/70/d1c0782e/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/92/d0275422/WaitForSeconds.cs" root0="SKIP_HIGHLIGHTING" />
@@ -497,6 +106,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -528,10 +138,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2364">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="2364" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -554,7 +164,7 @@
       <workItem from="1664620344636" duration="9161000" />
       <workItem from="1664634383442" duration="1495000" />
       <workItem from="1664636347079" duration="11641000" />
-      <workItem from="1664697714256" duration="15143000" />
+      <workItem from="1664697714256" duration="29928000" />
     </task>
     <task id="LOCAL-00001" summary="Added repository.">
       <created>1664454813054</created>
@@ -605,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664648578891</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added scene loader. Refactored code.">
+      <created>1664729457542</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664729457542</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added scene loader. Refactored code.">
+      <created>1664729506106</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664729506106</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,6 +289,7 @@
     <MESSAGE value="Added player and coins. Refactored UI." />
     <MESSAGE value="Refactored views and coin generator." />
     <MESSAGE value="Refactored coin controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored coin controller." />
+    <MESSAGE value="Added scene loader. Refactored code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added scene loader. Refactored code." />
   </component>
 </project>

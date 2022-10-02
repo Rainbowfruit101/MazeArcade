@@ -1,26 +1,23 @@
-using Controllers;
 using ScenesLoader;
 using ScenesLoader.Enums;
 
-namespace Listeners
+namespace Events
 {
     public class GameEvents
     {
         private SceneLoader _sceneLoader;
         
-        public GameEvents(SceneLoader sceneLoader, CoinsController coinsController, TimerController timerController)
+        public GameEvents(SceneLoader sceneLoader)
         {
             _sceneLoader = sceneLoader;
-            coinsController.OnCoinsEnded += OnAllCoinsCollected;
-            timerController.OnTimerEnded += OnTimerEnded;
         }
 
-        private void OnAllCoinsCollected()
+        public void OnAllCoinsCollected()
         {
             _sceneLoader.LoadScene(EGameSceneType.Menu);
         }
 
-        private void OnTimerEnded()
+        public void OnTimerEnded()
         {
             _sceneLoader.LoadScene(EGameSceneType.Menu);
         }

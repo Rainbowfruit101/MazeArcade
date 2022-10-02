@@ -3,12 +3,14 @@ using ObjectsStorage.Impls;
 using UI.Menu.Impls;
 using UnityEngine;
 
-namespace ScenesLoader.SceneLaunchers
+namespace ScenesLoader.SceneLaunchers.Impls
 {
     public class MenuSceneLauncher : SceneLauncherBase
     {
         [SerializeField] private MainMenuUIView mainMenu;
         [SerializeField] private LeaderboardMenuUIView leaderboardMenu;
+
+        
         public override void Load(SceneLoader sceneLoader)
         {
             var progressStorageObject = Storage

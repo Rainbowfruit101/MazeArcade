@@ -1,4 +1,4 @@
-namespace ScenesLoader
+namespace ScenesLoader.Enums
 {
     public enum EGameSceneType
     {

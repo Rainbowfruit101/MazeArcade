@@ -1,9 +1,8 @@
 using System;
 using Models;
 using Newtonsoft.Json;
-using ObjectsStorage;
 
-namespace ScenesLoader
+namespace ObjectsStorage.Impls
 {
     public class GameStateStorageObject : StorageObject<GameStateStorageObject.GameState>
     {
@@ -12,6 +11,7 @@ namespace ScenesLoader
         [Serializable]
         public class GameState
         {
+            [JsonProperty] public bool IsCurrentLevelStarted { get; set; }
             [JsonProperty] public MazeModel MazeModel { get; set; }
             [JsonProperty] public CoinModel[] CoinModels { get; set; }
             [JsonProperty] public PlayerModel PlayerModel { get; set; }
@@ -19,9 +19,7 @@ namespace ScenesLoader
 
         public override GameState GetDefaultData() => new GameState()
         {
-            MazeModel = null,
-            CoinModels = null,
-            PlayerModel = null
+            
         };
     }
 }
